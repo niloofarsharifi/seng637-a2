@@ -1,17 +1,4 @@
-//package org.jfree.data.test;
-//
-//import static org.junit.Assert.*;
-//
-//import org.junit.Test;
-//
-//public class DataUtilitiesTest {
-//
-//	@Test
-//	public void test() {
-//		fail("Not yet implemented");
-//	}
-//
-//}
+
 
 
 package org.jfree.data.test;
@@ -71,24 +58,7 @@ import org.junit.runner.Result;
 		}
 	}
 	
-//@Test
-//	public void testCalculateColumnTotal_invalidDataPassed() {
-//		Mockery mockingContext = new Mockery();
-//		final Values2D values = mockingContext.mock(Values2D.class);
-//		mockingContext.checking(new Expectations() {
-//			{
-//				one(values).getRowCount();
-//				will(returnValue(2));
-//				one(values).getValue(0, 0); 
-//			    will(returnValue(true)); 
-//			    one(values).getValue(1, 0); 
-//			    will(returnValue(false));
-//			}
-//		});
-//		double result = DataUtilities.calculateColumnTotal(values, 0);
-//		assertEquals(0, result, 0.000000001d);
-//	}
-	
+
 @Test
 public void testCalculateColumnTotal_invalidDataPassed() {
     Mockery mockingContext = new Mockery();
@@ -172,19 +142,6 @@ public void testCalculateColumnTotal_columnIsOneMoreThanMax() {
     assertEquals("Expected total of 0 for out-of-bounds column index", 0.0, result, 0.000000001d);
 }
 
-//@Test
-//	public void testCalculateColumnTotal_columnIsOneMoreThanMax() {
-//		Mockery mockingContext = new Mockery();
-//		final Values2D values = mockingContext.mock(Values2D.class);
-//		mockingContext.checking(new Expectations() {
-//			{
-//				one(values).getRowCount();
-//				will(returnValue(3));
-//			}
-//		});
-//		double result = DataUtilities.calculateColumnTotal(values, 3);
-//		assertEquals(0, result, 0.000000001d);
-//	}
 	
 @Test
 	public void testCalculateColumnTotal_columnIsCentralInTable() {
