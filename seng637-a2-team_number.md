@@ -2,12 +2,12 @@
 
 **Lab. Report \#2 – Requirements-Based Test Generation**
 
-| Group \#:      |   4  |
-| -------------- | --- |
-|  Niloofar Sharifisadr|     |
-|               |     |
-|                |     |
-|                |     |
+| Group \#:   4   |   
+| -------------- | 
+|  Niloofar Sharifisadr| 
+|               | 
+|                |
+|                |
 
 # 1 Introduction
 
