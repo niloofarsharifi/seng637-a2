@@ -26,11 +26,11 @@
 
 # 1 Introduction <a name="intro"></a>
 
-The purpose of this report is to outline the unit testing strategy employed for the given System Under Test(SUT), as well as to provide a detailed description of the test cases the group developed to check the validity of different functionalitties or methods of the system. Unit testing is a fundamental aspect of software development aimed at verifying the correctness and robustness of individual units or components within a system in isolation while testing techniques like Exploratory Testing focuses on user experience and Manual Scripted Testing is based on predefined test cases.
+This report aims to outline the unit testing strategy employed for the given System Under Test(SUT) and provide a detailed description of the test cases the group developed to check the validity of different functionalities or methods of the system. Unit testing is a fundamental aspect of software development aimed at verifying the correctness and robustness of individual units or components within a system in isolation, while testing techniques like Exploratory Testing focus on user experience and Manual Scripted Testing is based on predefined test cases.
 
-In this report, we will delve into the testing strategy utilized, i.e., the application of black-box testing techniques such as equivalence partitioning and boundary value analysis for different test cases. Additionally, we will discuss the use of mocking to isolate units under test from their dependencies, thus enabling focused and controlled testing scenarios.
+This report will delve into the testing strategy utilized, i.e., the application of black-box testing techniques such as equivalence partitioning and boundary value analysis for different test cases. Additionally, we will discuss using mocking to isolate units under test from their dependencies, thus enabling focused and controlled testing scenarios.
 
-By organizing the test cases based on the source code methods they test in the next section, we aim to provide clarity regarding the coverage of different partitions outlined in the testing strategy. Each test case is designed to validate specific behaviors and edge cases, ensuring thorough testing of the software components.
+By organizing the test cases based on the source code methods they test in the next section, we aim to clarify the coverage of different partitions outlined in the testing strategy. Each test case is designed to validate specific behaviors and edge cases, ensuring thorough testing of the software components.
 
 Through this report, we aim to demonstrate a systematic approach to unit testing, emphasizing the importance of comprehensive testing methodologies in ensuring the reliability and correctness of software systems.
 
