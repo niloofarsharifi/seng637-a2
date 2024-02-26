@@ -20,7 +20,7 @@ import org.junit.runner.Result;
 
 
 
- public class DataUtilitiesTest extends DataUtilities {
+ public class DataUtilitiesCalculateColumnTotalTest extends DataUtilities {
 @BeforeClass	 public static void setUpBeforeClass()
 	 throws Exception {}
 @Test
