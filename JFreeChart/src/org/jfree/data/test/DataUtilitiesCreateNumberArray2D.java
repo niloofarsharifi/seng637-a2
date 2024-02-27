@@ -10,7 +10,7 @@ import org.jfree.data.DataUtilities;
 
 
 
-public class DataUtilitiesNumberArray2D {
+public class DataUtilitiesCreateNumberArray2D {
 
     @Test
     public void testCreateNumberArray2D_BasicInput() {
