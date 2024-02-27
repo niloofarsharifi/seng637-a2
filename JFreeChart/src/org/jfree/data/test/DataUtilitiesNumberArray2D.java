@@ -10,7 +10,7 @@ import org.jfree.data.DataUtilities;
 
 
 
-public class RangeexpandToinclude {
+public class DataUtilitiesNumberArray2D {
 
     @Test
     public void testCreateNumberArray2D_BasicInput() {
